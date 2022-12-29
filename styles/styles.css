@@ -1,0 +1,23 @@
+@import url('https://use.typekit.net/yvd2asw.css');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.hover\:textStroke:hover{
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+}
+
+.textStroke{
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+}
+
+.hover\:textNormal:hover{
+    -webkit-text-stroke: none;
+    -webkit-text-fill-color: black;
+    fill: black;
+    stroke:none;
+
+}
