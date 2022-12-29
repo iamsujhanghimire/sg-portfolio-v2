@@ -12,7 +12,7 @@ export default function Home() {
     {/* Head */}
     <Head>
       <title>Sujhan Ghimire</title>
-      <link rel="icon" type="image/x-icon" href="./favicon.png"></link>
+      <link rel="icon" type="image/x-icon" href="./favicon.ico"/>
     </Head>
     {/* NavBar */}
     <Navbar/> 
