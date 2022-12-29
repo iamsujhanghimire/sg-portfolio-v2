@@ -21,7 +21,7 @@ export default function Hero() {
               href="documents/SujhanGhimire23.pdf"
               download="SujhanGhimire23.pdf"
               className="mx-auto border flex justify-center items-center w-[60vw] sm:w-[30vw] z-10 py-3 p-10 font-extrabold textStroke text-xl border-black rounded-full md:text-[2.2vw] lg:text-[2vw] hover:textNormal bg-white">
-                <h3 className="my-auto pr-5">My Resume</h3><FaCloudDownloadAlt className="max-md:hidden stroke-current stroke-[20px] fill-white"/>
+                <h3 className="my-auto md:pr-5">My Resume</h3><FaCloudDownloadAlt className="max-md:hidden stroke-current stroke-[20px] fill-white"/>
             </a>
           </div>
         </div>

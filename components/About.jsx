@@ -39,7 +39,7 @@ export default function About() {
               href="documents/SujhanGhimire23.pdf"
               download="SujhanGhimire23.pdf"
               className="mx-auto border flex justify-center w-[60vw] md:w-[30vw] z-10 py-3 p-10 font-extrabold textStroke items-center border-black rounded-full md:text-[1.5vw] hover:textNormal bg-white">
-                <h3 className="my-auto pr-5">My Resume</h3>        
+                <h3 className="my-auto md:pr-5">My Resume</h3>        
                 <FaCloudDownloadAlt className="max-md:hidden stroke-current stroke-[20px] fill-white"/>
             </a>
           </div>
@@ -47,7 +47,7 @@ export default function About() {
             <a
               href="#contact"
               className="mx-auto border flex justify-center w-[60vw] md:w-[30vw] z-10 py-3 p-10 font-extrabold textStroke items-center border-black rounded-full md:text-[1.5vw] hover:textNormal bg-white">
-                <h3 className="my-auto pr-5">Get to know me</h3>
+                <h3 className="my-auto md:pr-5">Get to know me</h3>
                 <TbMessageCircle2 className='max-md:hidden'/>
             </a>
           </div>
