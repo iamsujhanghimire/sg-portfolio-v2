@@ -37,6 +37,7 @@ export default function About() {
         <div className="resumeBtn text-center">
             <a
               href="documents/SujhanGhimire23.pdf"
+              target="_blank"
               download="SujhanGhimire23.pdf"
               className="mx-auto border flex justify-center w-[60vw] md:w-[30vw] z-10 py-3 p-10 font-extrabold textStroke items-center border-black rounded-full md:text-[1.5vw] hover:textNormal bg-white">
                 <h3 className="my-auto md:pr-5">My Resume</h3>        
@@ -45,7 +46,8 @@ export default function About() {
           </div>
           <div className="contactBtn my-1 text-center">
             <a
-              href="#contact"
+              href="https://linktr.ee/sujhan"
+              target="_blank"
               className="mx-auto border flex justify-center w-[60vw] md:w-[30vw] z-10 py-3 p-10 font-extrabold textStroke items-center border-black rounded-full md:text-[1.5vw] hover:textNormal bg-white">
                 <h3 className="my-auto md:pr-5">Get to know me</h3>
                 <TbMessageCircle2 className='max-md:hidden'/>
