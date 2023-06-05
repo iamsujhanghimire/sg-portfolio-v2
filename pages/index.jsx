@@ -14,18 +14,14 @@ export default function Home() {
       <title>Sujhan Ghimire</title>
       <link rel="icon" type="image/x-icon" href="./favicon.ico"/>
     </Head>
-    {/* NavBar */}
-    <Navbar/> 
-    {/* Hero */}
-    <Hero/>
-    {/* About */}
-    <About/>
-    {/* Experience */}
-    {/* <Experience/> */}
-    {/* Works */}
-    {/* <Works/> */}
-    {/* Contact */}
-    <Contact/>
+    <div className="pageContents">
+      <Navbar/> 
+      <Hero/>
+      <About/>
+      <Experience/>
+      {/* <Works/> */}
+      <Contact/>
+    </div>
       </>
   )
 }

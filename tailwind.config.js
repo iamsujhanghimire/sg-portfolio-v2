@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'titleFont': ['Eurostile-Extended', 'Poppins', 'sans-serif'],
-      'subtitleFont':['Darkmode', 'sans-serif'],
+      'titleFont': ['Montserrat', 'sans-serif'],
+      'subtitleFont':['Raleway', 'sans-serif'],
+      'bodyFont':['Source Sans Pro','sans-serif']
     },
   },
   plugins: [

@@ -40,7 +40,13 @@ export default function Navbar() {
                             </li>
                             <li className="mx-4 my-6 md:my-0 text-center">
                               <a href="#about" className="p-2 text-center font-extrabold hover:textStroke">About</a>
-                            </li>                                                    
+                            </li>
+                            <li className="mx-4 my-6 md:my-0 text-center">
+                              <a href="#experience" className="p-2 text-center font-extrabold hover:textStroke">Experience</a>
+                            </li>
+                            {/* <li className="mx-4 my-6 md:my-0 text-center">
+                              <a href="#works" className="p-2 text-center font-extrabold hover:textStroke">Works</a>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
