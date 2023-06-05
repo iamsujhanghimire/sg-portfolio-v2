@@ -12,7 +12,6 @@ const CustomArrow = ({ className, children, onClick, position }) => (
 
 const ExperienceCarousel = () => {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
