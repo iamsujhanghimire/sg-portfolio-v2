@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const CustomArrow = ({ className, children, onClick, position }) => (
-  <button className={`${className} absolute top-1/2 transform -translate-y-1/2 ${position === 'left' ? 'left-28' : 'right-28'}`} onClick={onClick}>
+  <button className={`${className} ${position} -mx-12`} onClick={onClick}>
     {children}
   </button>
 );
@@ -38,10 +38,10 @@ const ExperienceCarousel = () => {
          <div className="title">
              <h1 className='text-[12vw] sm:text-[8vw] leading-none font-extrabold textStroke py-2 md:py-5'>Experience</h1>            
          </div>
-    <Slider {...settings}>
+    <Slider {...settings} className='my-auto w-[70vw] md:w-[60vw] min-h-[inherit] border-2 pb-10 pt-5 md:px-10 z-0 border-black rounded-xl flex flex-col md:justify-center mx-auto'>
     <div>
-        <div className="experience-slide">
-          <div className="experience-content my-auto w-[70vw] md:w-[60vw] min-h-fit border-2 pb-10 pt-5 md:px-10 z-0 border-black rounded-xl flex flex-col md:justify-center mx-auto">
+        <div className="experience-slide mx-5">
+          <div className="experience-content">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
@@ -68,7 +68,7 @@ const ExperienceCarousel = () => {
       </div>
       <div>
         <div className="experience-slide">
-          <div className="experience-content w-[70vw] md:w-[60vw] min-h-fit border-2 pb-10 pt-5 md:px-10 z-0 border-black rounded-xl flex flex-col md:justify-center mx-auto">
+        <div className="experience-content">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
@@ -95,7 +95,7 @@ const ExperienceCarousel = () => {
       </div>
       <div>
         <div className="experience-slide">
-          <div className="experience-content w-[70vw] md:w-[60vw] min-h-fit border-2 pb-10 pt-5 md:px-10 z-0 border-black rounded-xl flex flex-col md:justify-center mx-auto">
+        <div className="experience-content">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
@@ -122,7 +122,7 @@ const ExperienceCarousel = () => {
       </div>
       <div>
         <div className="experience-slide">
-          <div className="experience-content w-[70vw] md:w-[60vw] min-h-fit border-2 pb-10 pt-5 md:px-10 z-0 border-black  rounded-xl flex flex-col md:justify-center mx-auto">
+        <div className="experience-content">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
@@ -148,7 +148,7 @@ const ExperienceCarousel = () => {
         </div>
       </div><div>
         <div className="experience-slide">
-          <div className="experience-content w-[70vw] md:w-[60vw] min-h-fit border-2 pb-10 pt-5 md:px-10 z-0 border-black rounded-xl flex flex-col md:justify-center mx-auto">
+        <div className="experience-content">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
@@ -175,7 +175,7 @@ const ExperienceCarousel = () => {
       </div>
       <div>
         <div className="experience-slide">
-          <div className="experience-content w-[70vw] md:w-[60vw] min-h-fit border-2 pb-10 pt-5 md:px-10 z-0 border-black rounded-xl flex flex-col md:justify-center mx-auto">
+        <div className="experience-content">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
