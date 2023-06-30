@@ -40,12 +40,12 @@ const ExperienceCarousel = () => {
          </div>
     <Slider {...settings} className='my-auto w-[70vw] md:w-[60vw] min-h-[inherit] border-2 pb-10 pt-5 md:px-10 z-0 border-black rounded-xl flex flex-col md:justify-center mx-auto'>
     <div>
-        <div className="experience-slide mx-5">
-          <div className="experience-content">
+        <div className="experience-slide">
+          <div className="experience-content forz">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
-               <img src="./img/exp-logo/forz.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" />
+               <a href="https://forz.design" target='_blank'><img src="./img/exp-logo/forz.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" /></a>
              </div>
              <div className="intro">
                <h1 className="text-lg sm:text-[4vw] font-extrabold text-center font-subtitleFont md:my-5">Forz Design</h1>
@@ -68,11 +68,11 @@ const ExperienceCarousel = () => {
       </div>
       <div>
         <div className="experience-slide">
-        <div className="experience-content">
+        <div className="experience-content entDept">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
-             <img src="./img/exp-logo/clarkent.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" />
+             <a href="https://www.clarku.edu/departments/entrepreneurship-and-innovation/2023/03/10/clark-tank-2023-and-beyond-winners-announced/" target='_blank'><img src="./img/exp-logo/clarkent.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" /></a>
              </div>
              <div className="intro">
                <h1 className="text-lg sm:text-[4vw] font-extrabold text-center sm:leading-[3rem] font-subtitleFont md:my-5">Clark Entrepreneurship and Innovation Program</h1>
@@ -95,11 +95,11 @@ const ExperienceCarousel = () => {
       </div>
       <div>
         <div className="experience-slide">
-        <div className="experience-content">
+        <div className="experience-content itsEndpoint">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
-             <img src="./img/exp-logo/clarkuni.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" />
+             <a href="https://www.clarku.edu/offices/its/about-its/" target='_blank'><img src="./img/exp-logo/clarkuni.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" /></a>
              </div>
              <div className="intro">
                <h1 className="text-lg sm:text-[4vw] font-extrabold text-center font-subtitleFont md:my-5">Clark University</h1>
@@ -122,11 +122,11 @@ const ExperienceCarousel = () => {
       </div>
       <div>
         <div className="experience-slide">
-        <div className="experience-content">
+        <div className="experience-content students-landing">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
-             <img src="./img/exp-logo/slanding.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" />
+             <a href="https://www.studentslanding.com" target='_blank'><img src="./img/exp-logo/slanding.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" /></a>
              </div>
              <div className="intro">
                <h1 className="text-lg sm:text-[4vw] font-extrabold text-center font-subtitleFont md:my-5">Students Landing</h1>
@@ -148,11 +148,11 @@ const ExperienceCarousel = () => {
         </div>
       </div><div>
         <div className="experience-slide">
-        <div className="experience-content">
+        <div className="experience-content taalo-co">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
-             <img src="./img/exp-logo/taaloco.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" />
+             <a href="https://www.instagram.com/taalo.co" target='_blank'><img src="./img/exp-logo/taaloco.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" /></a>
              </div>
              <div className="intro">
                <h1 className="text-lg sm:text-[4vw] font-extrabold text-center font-subtitleFont md:my-5">Taalo Accessory Company</h1>
@@ -175,11 +175,11 @@ const ExperienceCarousel = () => {
       </div>
       <div>
         <div className="experience-slide">
-        <div className="experience-content">
+        <div className="experience-content atharva">
            {/* Intro */}
            <div className="jobTitle flex items-center justify-center flex-col max-sm:text-center">
              <div className="img md:pr-4">
-             <img src="./img/exp-logo/atharva.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" />
+             <a href="https://www.facebook.com/AtharvaNPL/" target='_blank'><img src="./img/exp-logo/atharva.png" className='rounded-full border grayscale hover:grayscale-0 border-black h-20 w-20' alt="job-logo" /></a>
              </div>
              <div className="intro">
                <h1 className="text-lg sm:text-[4vw] font-extrabold text-center font-subtitleFont md:my-5">Atharva Initiation</h1>
